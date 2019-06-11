@@ -73,3 +73,14 @@ department = input('학과명: ')
 name = input('성명: ')
 #두 변수 값을 출력합니다.
 print('안녕하세요', department, name)
+
+#program 2-12#
+#여러분의 이름, 나이, 통학시간 정보를 입력받습니다.
+name = input("당신의 이름은 무엇입니까? ")
+age = int(input('나이는 어떻게 되시나요? '))
+attending_time = float(input('통학시간은 얼마나 걸립니까? '))
+#변수에 입력된 데이터를 출력해봅시다.
+print('입력 정보는 다음과 같습니다.')
+print('이름:', name)
+print('나이:', age)
+print('통학시간:', attending_time)
